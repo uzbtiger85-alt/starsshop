@@ -15,9 +15,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8058955962"))
 CHAT_ID = int(os.getenv("CHAT_ID"))
-CARD_NUMBER = os.getenv("CARD_NUMBER")
+CARD_NUMBER = os.getenv("5614 6803 7065 8706")
 ADMIN_USERNAME = os.getenv("ADMIN_USERNAME")
 SUPPORT_USERNAMES = os.getenv("SUPPORT_USERNAMES", "WarNexxxx,Sytik11").split(",")
 REVIEW_CHANNEL_ID = int(os.getenv("REVIEW_CHANNEL_ID"))
