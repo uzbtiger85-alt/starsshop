@@ -1,0 +1,19 @@
+# Environment variables — DO NOT COMMIT
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Data files (user data)
+users.json
+orders.json
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+.venv/
+env/
