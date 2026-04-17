@@ -14,9 +14,9 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8627903535:AAELrpmb31tXASbslYEPS7JhD1igKMck1s4")
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8058955962"))
-CHAT_ID = int(os.getenv("-1003801760994"))
+CHAT_ID = int(os.getenv("CHAT_ID", "-1003801760994"))
 CARD_NUMBER = os.getenv("5614 6803 7065 8706")
 ADMIN_USERNAME = os.getenv("@WarNexxxx")
 SUPPORT_USERNAMES = os.getenv("SUPPORT_USERNAMES", "WarNexxxx,Sytik11").split(",")
